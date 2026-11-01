@@ -10014,7 +10014,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Пропускная способность"
+            "value" : "Чтение/запись"
           }
         }
       }
@@ -19584,9 +19584,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Добавить %d процессов в Обозреватель"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Добавить %d процесс в Обозреватель"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Добавить %d процесса в Обозреватель"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Добавить %d процессов в Обозреватель"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Добавить %d процесса в Обозреватель"
+                }
+              }
+            }
           }
         }
       }
@@ -19617,6 +19641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "将前 %d 个进程添加到数据探索"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Добавить первые процессы (%d) в Обозреватель"
           }
         }
       }
@@ -26238,9 +26268,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%d байт"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d байт"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d байта"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d байт"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d байта"
+                }
+              }
+            }
           }
         }
       }
@@ -26310,9 +26364,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%d ядер"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d ядро"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d ядра"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d ядер"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d ядра"
+                }
+              }
+            }
           }
         }
       }
@@ -26348,7 +26426,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%d ядер (%dP + %dE)"
+            "value" : "Ядер: %d (%dP + %dE)"
           }
         }
       }
@@ -26382,9 +26460,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%d дней"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d день"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d дня"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d дней"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d дня"
+                }
+              }
+            }
           }
         }
       }
@@ -26418,9 +26520,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%d часов"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d час"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d часа"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d часов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d часа"
+                }
+              }
+            }
           }
         }
       }
@@ -26526,9 +26652,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%d процессов"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d процесс"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d процесса"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d процессов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%d процесса"
+                }
+              }
+            }
           }
         }
       }
@@ -26742,9 +26892,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld ядер"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld ядро"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld ядра"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld ядер"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld ядра"
+                }
+              }
+            }
           }
         }
       }
@@ -26778,9 +26952,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld записей"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld запись"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld записи"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld записей"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld записи"
+                }
+              }
+            }
           }
         }
       }
@@ -26814,9 +27012,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld папок не удалось прочесть без разрешения «Полный доступ к диску»"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld папку не удалось прочесть без разрешения «Полный доступ к диску»"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld папки не удалось прочесть без разрешения «Полный доступ к диску»"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld папок не удалось прочесть без разрешения «Полный доступ к диску»"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld папки не удалось прочесть без разрешения «Полный доступ к диску»"
+                }
+              }
+            }
           }
         }
       }
@@ -26886,9 +27108,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld объектов"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld объект"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld объекта"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld объектов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld объекта"
+                }
+              }
+            }
           }
         }
       }
@@ -26922,9 +27168,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld локальных снимков"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld локальный снимок"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld локальных снимка"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld локальных снимков"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld локальных снимка"
+                }
+              }
+            }
           }
         }
       }
@@ -26994,9 +27264,33 @@
           }
         },
         "ru" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "%lld других томов"
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld другой том"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld других тома"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld других томов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "%lld других тома"
+                }
+              }
+            }
           }
         }
       }
@@ -27032,7 +27326,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%lld принадлежат другим пользователям"
+            "value" : "Принадлежат другим пользователям: %lld"
           }
         }
       }
@@ -27140,7 +27434,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "%lld x %lld пикселей"
+            "value" : "%lld × %lld пикс."
           }
         }
       }
@@ -32250,8 +32544,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Arch"
+            "state" : "needs_review",
+            "value" : "Архит."
           }
         }
       }
@@ -34734,8 +35028,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bus"
+            "state" : "needs_review",
+            "value" : "Шина"
           }
         }
       }
@@ -45412,7 +45706,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Обнаружение %1$d из %2$d адресов"
+            "value" : "Обнаружение адресов: %1$d из %2$d"
           }
         }
       }
@@ -45519,8 +45813,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Disk Map"
+            "state" : "needs_review",
+            "value" : "Карта диска"
           }
         }
       }
@@ -54444,8 +54738,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Heap"
+            "state" : "needs_review",
+            "value" : "Куча"
           }
         }
       }
@@ -62847,8 +63141,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mail"
+            "state" : "needs_review",
+            "value" : "Почта"
           }
         }
       }
@@ -71116,8 +71410,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
+            "state" : "needs_review",
+            "value" : "ОК"
           }
         }
       }
@@ -73563,7 +73857,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "С течением времени"
+            "value" : "Динамика"
           }
         }
       }
@@ -76080,8 +76374,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Port"
+            "state" : "needs_review",
+            "value" : "Порт"
           }
         }
       }
@@ -89248,8 +89542,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swap"
+            "state" : "needs_review",
+            "value" : "Подкачка"
           }
         }
       }
@@ -91763,7 +92057,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "needs_review",
-            "value" : "Диапазон содержит %1$d адресов. Выберите %2$d или меньше."
+            "value" : "Адресов в диапазоне: %1$d. Выберите не более %2$d."
           }
         }
       }
@@ -93737,8 +94031,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Top %lld"
+            "state" : "needs_review",
+            "value" : "Топ-%lld"
           }
         }
       }
@@ -93773,8 +94067,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Top CPU"
+            "state" : "needs_review",
+            "value" : "Лидеры по CPU"
           }
         }
       }
@@ -93881,8 +94175,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Top GPU"
+            "state" : "needs_review",
+            "value" : "Лидеры по GPU"
           }
         }
       }
@@ -108240,8 +108534,8 @@
         },
         "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apps"
+            "state" : "needs_review",
+            "value" : "Приложения"
           }
         }
       }
@@ -108494,6 +108788,78 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Завершить приложение обычным способом, аналогично команде «Завершить» в его меню."
+          }
+        }
+      }
+    },
+    "This language was translated by an AI model and has not yet been reviewed by native speakers. Corrections are welcome at crowdin.com/project/mac-performance-monitor." : {
+      "comment" : "SettingsView: notice under the language picker for an AI-generated language whose model is not recorded (Russian, #168). AI-generated translations; native-speaker review pending.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Sprache wurde von einem KI-Modell übersetzt und noch nicht von Muttersprachlern geprüft. Korrekturen sind willkommen unter crowdin.com/project/mac-performance-monitor."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This language was translated by an AI model and has not yet been reviewed by native speakers. Corrections are welcome at crowdin.com/project/mac-performance-monitor."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette langue a été traduite par un modèle d'IA et n'a pas encore été relue par des locuteurs natifs. Vos corrections sont bienvenues sur crowdin.com/project/mac-performance-monitor."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Этот язык переведен моделью ИИ и еще не проверялся носителями языка. Ваши исправления приветствуются на crowdin.com/project/mac-performance-monitor."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此语言由 AI 模型翻译，尚未经母语者审校。欢迎在 crowdin.com/project/mac-performance-monitor 提交修正。"
+          }
+        }
+      }
+    },
+    "Русский" : {
+      "comment" : "SettingsView: language picker entry, the language's own name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Русский"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Русский"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Русский"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Русский"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Русский"
           }
         }
       }
